@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
+
 import { EditComponent } from './edit/edit.component';
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
@@ -25,19 +25,17 @@ import { SliderModule } from 'primeng/slider';
 import { SplitButtonModule } from 'primeng/splitbutton';
 import { InputSwitchModule } from 'primeng/inputswitch';
 import { DashboardComponent } from './dashboard/dashboard.component';
-=======
+import { PricingComponent } from './pricing/pricing.component';
 import { LoginComponent } from './login/login.component';
->>>>>>> d00da3695618d291c872e609a1a888c52e4ba292
+
 
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
     EditComponent,
-DashboardComponent
-=======
-    LoginComponent
->>>>>>> d00da3695618d291c872e609a1a888c52e4ba292
+DashboardComponent,
+PricingComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
