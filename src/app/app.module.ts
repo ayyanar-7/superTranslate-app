@@ -29,6 +29,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { LoginComponent } from './login/login.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
