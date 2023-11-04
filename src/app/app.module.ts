@@ -24,6 +24,7 @@ import { DialogModule } from 'primeng/dialog';
 import { SliderModule } from 'primeng/slider';
 import { SplitButtonModule } from 'primeng/splitbutton';
 import { InputSwitchModule } from 'primeng/inputswitch';
+import { DashboardComponent } from './dashboard/dashboard.component';
 =======
 import { LoginComponent } from './login/login.component';
 >>>>>>> d00da3695618d291c872e609a1a888c52e4ba292
@@ -32,7 +33,8 @@ import { LoginComponent } from './login/login.component';
   declarations: [
     AppComponent,
 <<<<<<< HEAD
-    EditComponent
+    EditComponent,
+DashboardComponent
 =======
     LoginComponent
 >>>>>>> d00da3695618d291c872e609a1a888c52e4ba292
