@@ -1,15 +1,164 @@
-.prichead{
+.prichead {
     text-align: center;
     margin-top: 10rem;
     margin-bottom: 1.5rem;
-    h1{
+
+    h1 {
         font-size: 3rem;
-        line-height: 1.2;   
-        font-family: Inter,system-ui,sans-serif,Arial,Helvetica;
+        line-height: 1.2;
+        font-family: Inter, system-ui, sans-serif, Arial, Helvetica;
         font-weight: 700;
     }
-    p{
+
+    p {
         font-size: 1.25rem;
         color: #718096;
+    }
+}
+
+.cards {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+
+    .card1 {
+        border: 2px solid red !important;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        border-width: 1px;
+        border-color: #E2E8F0;
+        border-radius: 0.75rem;
+        min-width: 360px;
+        padding-left: 0%;
+        padding-right: 0%;
+
+        p:nth-child(1) {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+
+
+        .cardpri {
+            display: flex;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            flex-direction: row;
+
+            p:nth-child(1) {
+                font-size: 1.875rem;
+                font-weight: 600;
+            }
+
+            p:nth-child(2) {
+
+                font-size: 3.5rem;
+                font-weight: 900;
+
+                margin-top: 0px;
+                margin-inline-end: 0px;
+                margin-bottom: 0px;
+                margin-inline-start: 0.5rem;
+            }
+        }
+
+
+        .card-body {
+            display: flex;
+            align-items: center;
+            -webkit-box-align: center;
+            flex-direction: column;
+            background-color: #F7FAFC;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            min-width: 356px;
+            border-bottom-left-radius: var(--chakra-radii-xl);
+            border-bottom-right-radius: var(--chakra-radii-xl);
+
+            h6 {
+                font-weight: 400;
+
+            }
+
+            .css-5atgzs {
+
+                width: 1em;
+                height: 1em;
+                display: inline;
+                line-height: 1em;
+                color: #38A169;
+                margin-inline-end: 0.5rem;
+                vertical-align: text-bottom;
+            }
+
+            .card-text {
+                margin-top: 0.5rem;
+
+                font-size: 0.75rem;
+                text-align: center;
+            }
+
+            .btn-primary {
+
+                margin-top: 1.5rem;
+                font-weight: 600;
+                height: 2.5rem;
+                min-width: 16.5rem;
+                font-size: 1rem;
+                padding-inline-start: 1rem;
+                padding-inline-end: 1rem;
+                color: #0066b1;
+                background: transparent;
+
+            }
+
+            .btn-primary:hover {
+                background-color: #ebf8ff;
+            }
+
+        }
+
+        .poprel {
+
+            position: relative;
+
+            .pop {
+
+                transform: translate(-50%);
+                position: absolute;
+                top: -16px;
+                left: 50%;
+
+                p {
+                    background: #0383e3;
+                    text-transform: uppercase;
+                    font-family: Inter, system-ui, sans-serif, Arial, Helvetica;
+                    padding-inline-start: 0.75rem;
+                    padding-inline-end: 0.75rem;
+                    padding-top: 0.25rem;
+                    padding-bottom: 0.25rem;
+                    font-size: 0.875rem;
+                    font-weight: 600;
+                    border-radius: 0.75rem;
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        .month {
+            font-size: 1.85rem;
+            color: #718096;
+
+            margin-top: 0px;
+            margin-inline-end: 0px;
+            margin-bottom: 0px;
+            margin-inline-start: 0.5rem;
+
+        }
+
     }
 }
