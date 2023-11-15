@@ -4,34 +4,8 @@
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 
-
-//pricing
-.pay {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-
-    p-button.p-element {
-        
-        padding: 0.3rem;
-
-
-
-    }
-
-    button {
-        font-family: inherit;
-        background-color: #0383e3;
-        border-radius: 0.375rem;
-        transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-        transition-duration: 200ms;
-        outline: transparent;
-    }
-
-
-}
-body
-{
-    padding: 0;
-    margin: 0;
+body{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
 }
